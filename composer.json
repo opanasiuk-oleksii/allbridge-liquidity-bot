@@ -1,0 +1,23 @@
+{
+    "name": "opanasiuk-oleksii/allbridge-liquidity-bot",
+    "description": "A Telegram bot for managing and monitoring liquidity.",
+    "type": "project",
+    "require": {
+        "vendor/longman/telegram-bot": "^0.83.1",
+        "php": "^8.2",
+        "vendor/monolog/monolog": "^3.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "opanasiuk-oleksii\\AllbridgeLiquidityBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleksii Opanasiuk"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
